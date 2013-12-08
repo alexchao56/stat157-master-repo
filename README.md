@@ -8,3 +8,4 @@ Please push things here that your group has done. Push it under a folder named a
 ## Members List
 
 + *Analyzer Subgroup 2*: Roland Shen, Teresa Tenfelder, Khoa Tran, Jody Zhang
++ *The Quakers* : Carl Shan, He Ma, Sunny Sunnia, Theresa Andrasfay, Alex Chao, Sherry Xia
