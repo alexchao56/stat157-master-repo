@@ -1,6 +1,6 @@
 # Earthquake Project: Visual Heart Group
 
-## Group Main Repo
+## Group Main Repository
 https://github.com/annyeongjs/visualheart.task8
 
 ## Members
@@ -56,20 +56,23 @@ https://github.com/annyeongjs/visualheart.task8
 
 
 ## Improvements
-#####[ecdf.R](https://github.com/SunnySunnia/TheQuakers/blob/master/ECDF/ecdf.R)
+#####Improvement to the [ecdf.R](https://github.com/SunnySunnia/TheQuakers/blob/master/ECDF/ecdf.R)
 - Added x axis label in terms of date. This essentially addresses all 3 items mentioned above.
 - Added horizontal grids to make it easier to read.
-- Some important settings are hard coded in the original code, e.g. boundary of magnitude interval, location of vertical grid etc. So it works fine with 250.csv but not the new records which contain 6598 events from 1932 to 2013. The new code will setup these settings adaptively to make it work with data of any size.
-- Wrap up the code as a function, the only argument required is the data frame loaded from data file. I verified the code with both the 250.csv and the new records of events from 1932 to 2013.
+- Some important settings were hard coded in the original code, e.g. boundary of magnitude interval, location of vertical grid etc. So it worked fine with 250.csv but not the new records which contain 6598 events from 1932 to 2013. The new code can handle these settings adaptively and work with data of any size.
+- Wraped up the code as a function, the only argument required is the data frame loaded from data file.
+- The improved version was renamed to [ecdf_improved.R](https://github.com/qi-zhang/visualheart.task8/blob/master/ECDF_IMPROVED/ecdf_improved.R)
 
-#####[etas-training.R](https://github.com/SunnySunnia/TheQuakers/blob/master/MDA/etas-training.R)
-- Clean up unnecessary code. Replace the original "placeholder"+"for loop" with sapply functions.
-- Rewrite the internal loop of error estimate in the Mag-dependent automatic model and etas.CI to improve run time performance. The latest code runs about 3 times faster.
-- Re-organize the code and add comments to make it more readable.
-- Add grids to the plot to make it more readable. 
+#####Improvement to the [etas-training.R](https://github.com/SunnySunnia/TheQuakers/blob/master/MDA/etas-training.R)
+- Cleaned up unnecessary code. Replace the original "placeholder"+"for loop" with sapply functions.
+- Re-wrote the internal loop of error estimate in the Mag-dependent automatic model and etas.CI to improve run time performance. The latest code runs about 3 times faster.
+- Re-organized the code and add comments to make it more readable.
+- Added grids to the plot to make it more readable. 
+- The improved version was renamed to [etas_training_improved.R](https://github.com/qi-zhang/visualheart.task8/blob/master/ETAS_TRAINING_IMPROVED/etas_training_improved.R)
 
-#####[Quakers-EarthquakeSuccessors.R](https://github.com/SunnySunnia/TheQuakers/blob/master/Successors/Quakers-EarthquakeSuccessors.R)
+#####Improvement to the [Quakers-EarthquakeSuccessors.R](https://github.com/SunnySunnia/TheQuakers/blob/master/Successors/Quakers-EarthquakeSuccessors.R)
 - Added title for each plot to help people understanding the brief idea of each graph.
 - Adjusted legend and y-label for each plot to help people understanding details of each graph.
-- Rewrote the internal loop to make sure the index never exceed the length of the vector.
-- Add tons of comments to make the code easy to read.
+- Re-wrote the internal loop to make sure the index never exceed the length of the vector.
+- Added tons of comments to make the code easy to read.
+- The improved version was renamed to [Quakers-EarthquakeSuccessors_improved.R] (https://github.com/qi-zhang/visualheart.task8/blob/master/SUCCESSORS_IMPROVED/Quakers-EarthquakeSuccessors_improved.R)
