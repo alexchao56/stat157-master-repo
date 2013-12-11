@@ -13,6 +13,10 @@ Objectives
 ===============
 To make Luen's error code diagrams more reproducible and to analyze the area under the curves.
 
+Problems Encountered
+===============
+The majority of our problems involved organizing and collaboration, highlighting the theme of this course. Because we are a new group, getting everyone on the same page was difficult.  
+
 Methods
 ===============
 We combined groups 1 and 3 to formulate this new group. We merged these groups around November 19th as both groups felt the need to add more work. As our two groups finished early, we decided to improve the reproducibility of Luen's code as well as take our analysis one step further and integrate the area beneath the curve for the error diagrams. This area under the curve signified the number of false positives, so minimizing this area is paramount to creating a more efficient model.
